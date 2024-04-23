@@ -16,15 +16,15 @@ from utils import (
 
 if __name__ == "__main__":
     # Title of the application
-    st.title("VerbalizeIt")
+    st.title("data-science-capstone-assignment")
 
     st.markdown(
-        "VerbalizeIt is an advanced transcription tool that converts speech from audio files, YouTube videos, or live input into text. Choose a mode and start transcribing!"
+        "This project is an advanced transcription tool that converts speech from audio files, YouTube videos, or live input into text. Choose a mode and start transcribing!"
     )
 
     st.sidebar.markdown(
         """
-        ## How to Use VerbalizeIt:
+        ## How to Use this project:
         Follow these steps to get your transcription:
 
         - **Select a mode of operation:** Choose whether to upload an audio file, enter a YouTube URL, or start live transcription.

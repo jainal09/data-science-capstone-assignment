@@ -27,7 +27,7 @@ This project requires ffmpeg module for real time transcriptions. Please install
 
 1. Clone the repository (ssh example):
    ```sh
-   git clone https://github.com/jainal09/data-science-capstone-assignment.git
+   git clone git@github.com:jainal09/data-science-capstone-assignment.git
 
 2. Navigate to the project directory:
    ```sh

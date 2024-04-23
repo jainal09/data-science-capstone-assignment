@@ -13,18 +13,75 @@ from utils import (
     handle_live_transcription,
 )
 
+# Set page configuration
+st.set_page_config(
+    page_title="Transcription Tool",
+    page_icon=":microphone:",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
+# Sidebar styles
+st.markdown(
+    """
+    <style>
+        .sidebar .sidebar-content {
+            background-color: #2e3f4f;
+            color: #ffffff;
+        }
+        .sidebar .sidebar-content .block-container a {
+            color: #ffffff;
+        }
+    </style>
+""",
+    unsafe_allow_html=True,
+)
+
+# Main content styles
+st.markdown(
+    """
+    <style>
+        .css-1v1pxco {
+            color: #ffffff;
+        }
+        .css-hi6a2p {
+            background-color: #465a6b;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+        }
+        .stButton>button {
+            background-color: #007bff;
+            color: #ffffff;
+            border-radius: 5px;
+        }
+        .stButton>button:hover {
+            background-color: #0056b3;
+        }
+        .stTextInput>div>div>input {
+            background-color: #ffffff;
+            color: #333333;
+            border-radius: 5px;
+        }
+        .stTextInput>div>div>input:focus {
+            border-color: #007bff;
+        }
+    </style>
+""",
+    unsafe_allow_html=True,
+)
 
 if __name__ == "__main__":
     # Title of the application
-    st.title("data-science-capstone-assignment")
+    st.title("Advanced Transcription Tool")
 
     st.markdown(
-        "This project is an advanced transcription tool that converts speech from audio files, YouTube videos, or live input into text. Choose a mode and start transcribing!"
+        "Welcome to the Advanced Transcription Tool! This tool converts speech from audio files, YouTube videos, or live input into text. Select a mode and start transcribing!"
     )
 
     st.sidebar.markdown(
         """
-        ## How to Use this project:
+        ## How to Use this Tool:
         Follow these steps to get your transcription:
 
         - **Select a mode of operation:** Choose whether to upload an audio file, enter a YouTube URL, or start live transcription.

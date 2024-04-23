@@ -11,6 +11,7 @@ Transcriptor is an advanced transcription tool that leverages the OpenAI Whisper
 - Real-time transcription through live audio input.
 - Simple and intuitive user interface.
 - Option to download transcriptions as a text file.
+- Generates live SRT files using Silero VAD and Whisper which can be used in the video.
 
 ## How It Works
 

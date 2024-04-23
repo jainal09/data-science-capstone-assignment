@@ -74,3 +74,16 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
    
+
+
+## Citations
+
+1. **OpenAI Whisper Tiny Model**: The core of Transcriptor's transcription capabilities is built upon the OpenAI Whisper Tiny model, a state-of-the-art Automatic Speech Recognition (ASR) model capable of transcribing speech in 99 languages with high accuracy [0].
+
+2. **Hugging Face Whisper Tiny**: The Whisper Tiny model is available on Hugging Face, a platform that hosts a wide range of models for various NLP tasks, including ASR. This model is designed for both English-only and multilingual applications, with parameters ranging from 38M for tiny models to 1.5B for large models [0].
+
+3. **Whisper Release and Collection**: The Whisper model collection includes both English-only and multilingual checkpoints for ASR and Speech-to-Text (ST), showcasing the versatility and efficiency of the model in different language and application scenarios [0].
+
+4. **NB-Whisper Small Model**: The Norwegian NB-Whisper Small model, developed by the National Library of Norway, is based on the work of OpenAI's Whisper. This model has been trained on a diverse dataset of 8 million samples, demonstrating the potential for fine-tuning and adaptation of the Whisper model for specific language and domain applications [3].
+
+5. **Whisper's Code and Model Weights**: The code and model weights for Whisper are released under the MIT License, making it accessible for developers and researchers to build upon and integrate into their projects. This open-source approach facilitates the development of advanced transcription tools like Transcriptor [4].

@@ -48,8 +48,12 @@ This project requires ffmpeg module for real time transcriptions. Please install
 The frontend at: http://localhost:8501
 The backend at: http://localhost:8000
 
-### Future work
-Running the whole project in a dockerized environment
+### Docker
+
+```sh
+docker compose up -d
+```
+It starts both the frontend and the backend communicating with eacb other.
 
 ## License
 MIT License
